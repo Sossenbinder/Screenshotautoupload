@@ -1,0 +1,13 @@
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\bin\Debug\Screenshotautoupload.exe.config
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\bin\Debug\Screenshotautoupload.exe
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\bin\Debug\Screenshotautoupload.pdb
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\obj\Debug\Screenshotautoupload.csprojResolveAssemblyReference.cache
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\obj\Debug\Screenshotautoupload.Properties.Resources.resources
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\obj\Debug\Screenshotautoupload.ScreenshotAutoupload.resources
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\obj\Debug\Screenshotautoupload.csproj.GenerateResource.Cache
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\obj\Debug\Screenshotautoupload.exe
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\obj\Debug\Screenshotautoupload.pdb
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\bin\Debug\Hotkeys.dll
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\bin\Debug\Hotkeys.pdb
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\bin\Debug\Newtonsoft.Json.dll
+E:\VS_workspaces\Screenshotautoupload\Screenshotautoupload\bin\Debug\Newtonsoft.Json.xml
