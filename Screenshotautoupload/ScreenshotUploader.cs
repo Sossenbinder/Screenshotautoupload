@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Screenshotautoupload
 {
@@ -20,6 +21,7 @@ namespace Screenshotautoupload
             {
                 using (WebClient web = new WebClient())
                 {
+                    
                     web.Headers.Add("Authorization", "Client-ID " + Program.client_id);
                     var values = new NameValueCollection
                     {
@@ -35,7 +37,17 @@ namespace Screenshotautoupload
                     imgurResponseModel.deletehash = responseModel.data.deletehash;
                 }
             }
-            catch (WebException) { }
+            catch (WebException) {
+                DialogResult result = MessageBox.Show("Could not upload your picture - Is your connection alright?" + Environment.NewLine + "Do you want to retry?",
+                                                      "Upload failed",
+                                                      MessageBoxButtons.YesNo,
+                                                      MessageBoxIcon.Warning
+                                                      );
+                if (result.Equals(DialogResult.Yes))
+                {
+                    uploadScreenshot(imagePath);
+                }
+            }
 
             return imgurResponseModel;
         }
