@@ -46,5 +46,29 @@ namespace Screenshotautoupload.Properties {
                 this["activationKey"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool clipBoardAutoCopySettings {
+            get {
+                return ((bool)(this["clipBoardAutoCopySettings"]));
+            }
+            set {
+                this["clipBoardAutoCopySettings"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool autoStart {
+            get {
+                return ((bool)(this["autoStart"]));
+            }
+            set {
+                this["autoStart"] = value;
+            }
+        }
     }
 }

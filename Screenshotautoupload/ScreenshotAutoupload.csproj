@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutostartHandler.cs" />
     <Compile Include="ImgurResponseModel.cs" />
     <Compile Include="ScreenshotAutoupload.cs">
       <SubType>Form</SubType>
@@ -59,17 +60,18 @@
       <DependentUpon>ScreenshotAutoupload.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScreenshotCreator.cs" />
     <Compile Include="ScreenshotUploader.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ScreenshotAutoupload.resx">
       <DependentUpon>ScreenshotAutoupload.cs</DependentUpon>
@@ -87,6 +89,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Hotkeys.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\Newtonsoft.Json.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgur.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

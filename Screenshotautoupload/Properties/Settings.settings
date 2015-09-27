@@ -8,5 +8,11 @@
     <Setting Name="activationKey" Type="System.Windows.Forms.Keys" Scope="User">
       <Value Profile="(Default)">P</Value>
     </Setting>
+    <Setting Name="clipBoardAutoCopySettings" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="autoStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
